@@ -1,46 +1,35 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        Circle circle = new Circle("Circle");
-
-        circle.display();
-
-        System.out.println("------------------");
-
-        Diamond diamond = new Diamond("Diamond");
-
-        diamond.display();
+        Shape circle = new Circle();
+        ShapePrinter.printShapeName(circle);
 
         System.out.println("------------------");
 
-        Oval oval = new Oval("Oval");
-
-        oval.display();
-
-        System.out.println("------------------");
-
-        Pentagon pentagon = new Pentagon("Pentagon");
-
-        pentagon.display();
+        Shape diamond = new Diamond();
+        ShapePrinter.printShapeName(diamond);
 
         System.out.println("------------------");
 
-        Quad quad = new Quad("Quad");
-
-        quad.display();
-
-        System.out.println("------------------");
-
-        Rhombus rhombus = new Rhombus("Rhombus");
-
-        rhombus.display();
+        Shape oval = new Oval();
+        ShapePrinter.printShapeName(oval);
 
         System.out.println("------------------");
 
-        Triangle triangle = new Triangle("Triangle");
+        Shape pentagon = new Pentagon();
+        ShapePrinter.printShapeName(pentagon);
 
-        triangle.display();
+        System.out.println("------------------");
+
+        Shape quad = new Quad();
+        ShapePrinter.printShapeName(quad);
+
+        System.out.println("------------------");
+        Shape rhombus = new Rhombus();
+        ShapePrinter.printShapeName(rhombus);
+
+        System.out.println("------------------");
+        Shape triangle = new Triangle();
+        ShapePrinter.printShapeName(triangle);
 
         System.out.println("------------------");
 

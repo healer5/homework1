@@ -1,9 +1,5 @@
 public class Quad extends Shape{
-    public Quad(String name){
-        super(name);
-    }
-
-    public void display(){
-        super.display();
+    public String getName() {
+        return "This is quad";
     }
 }
